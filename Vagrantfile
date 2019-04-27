@@ -4,6 +4,7 @@
 $setup_pathspider = <<SCRIPT
 export DEBIAN_FRONTEND=noninteractive
 apt-get update
+apt install -y hellfire
 apt install -y libtrace-dev libldns-dev libcurl4-gnutls-dev python3-dev python3-pip git
 git clone https://github.com/nevil-brownlee/python-libtrace.git
 pushd python-libtrace && \
